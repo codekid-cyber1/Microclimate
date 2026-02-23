@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+    <defs>
+        <linearGradient id="cloudGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#22d3ee" />
+            <stop offset="100%" stop-color="#0284c7" />
+        </linearGradient>
+    </defs>
+
+    <g fill="url(#cloudGrad)">
+        <circle cx="40" cy="70" r="22" />
+        <circle cx="60" cy="48" r="30" />
+        <circle cx="85" cy="65" r="24" />
+        <rect x="40" y="50" width="45" height="42" />
+    </g>
+
+    <g fill="#121212">
+        <circle cx="42" cy="70" r="14" />
+        <circle cx="60" cy="54" r="22" />
+        <circle cx="81" cy="66" r="16" />
+        <rect x="42" y="54" width="39" height="30" />
+    </g>
+
+    <polygon points="63,38 47,65 58,65 53,86 73,55 62,55" fill="#22d3ee" />
+</svg>
