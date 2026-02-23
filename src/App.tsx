@@ -22,14 +22,12 @@ const queryClient = new QueryClient({
 
 function App() {
 
-  // When deployed to GitHub Pages the app is served from /Microclimate/
-  // so we set the router basename in production. Locally we'll use root '/'.
-  const basename = import.meta.env.PROD ? '/Microclimate' : '/';
+
 
   return (
     <QueryClientProvider client={queryClient}>
 
-    <BrowserRouter basename={basename}>
+    <BrowserRouter>
       <ThemeProvider defaultTheme='dark'>
         <Layout>
           <Routes>
